@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Pty.so.4 libkf5pty4 #MINVER#
+libKF5Pty.so.5 libkf5pty5 #MINVER#
  _ZN10KPtyDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPtyDevice11qt_metacastEPKc@Base 4.96.0
  _ZN10KPtyDevice12readLineDataEPcx@Base 4.96.0
