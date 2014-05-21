@@ -22,14 +22,14 @@ Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
  TTY pair, assigning the controlling TTY, utmp
  registration and setting various terminal attributes.
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5pty5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
+Multi-Arch: same
 Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kpty
  Provides primitives for opening & closing a pseudo
