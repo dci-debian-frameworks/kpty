@@ -3,33 +3,27 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev,
- libkf5coreaddons-dev (>= 4.99.0), libkf5i18n-dev (>= 4.99.0),
- libkf5kjs-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kpty
 
-Package: libkf5pty-dev
+Package: libkf5pty5
 Section: libdevel
 Architecture: any
-Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kpty
- Provides primitives for opening & closing a pseudo
- TTY pair, assigning the controlling TTY, utmp 
- registration and setting various terminal attributes. 
- .
- Contains development files for kpty.
- 
-Package: libkf5pty5
-Architecture: any
-Multi-Arch: allowed
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
- TTY pair, assigning the controlling TTY, utmp 
- registration and setting various terminal attributes. 
+ TTY pair, assigning the controlling TTY, utmp
+ registration and setting various terminal attributes.
+Multi-Arch: allowed
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5pty5-dbg
 Priority: extra
@@ -39,7 +33,7 @@ Multi-Arch: allowed
 Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kpty
  Provides primitives for opening & closing a pseudo
- TTY pair, assigning the controlling TTY, utmp 
- registration and setting various terminal attributes. 
+ TTY pair, assigning the controlling TTY, utmp
+ registration and setting various terminal attributes.
  .
  Contains debug symbols for kpty.
