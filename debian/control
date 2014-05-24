@@ -14,8 +14,18 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kpty
 
-Package: libkf5pty5
+Package: libkf5pty-dev
 Section: libdevel
+Architecture: any
+Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kpty
+ Provides primitives for opening & closing a pseudo
+ TTY pair, assigning the controlling TTY, utmp
+ registration and setting various terminal attributes.
+ .
+ Contains development files for kpty.
+
+Package: libkf5pty5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Pty abstraction.
