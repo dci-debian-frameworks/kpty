@@ -5,10 +5,10 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5i18n-dev (>= 4.99.0),
-               libkf5kjs-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
@@ -17,9 +17,10 @@ Homepage: https://projects.kde.org/projects/frameworks/kpty
 Package: libkf5pty-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends},
- libkf5coreaddons-dev,
- libkf5i18n-dev
+Depends: libkf5coreaddons-dev,
+         libkf5i18n-dev,
+         libkf5pty5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for kpty
  Provides primitives for opening & closing a pseudo
  TTY pair, assigning the controlling TTY, utmp
