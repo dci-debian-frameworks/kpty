@@ -40,7 +40,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5pty-data
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
