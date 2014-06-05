@@ -37,7 +37,6 @@ Description: Pty abstraction.
  TTY pair, assigning the controlling TTY, utmp
  registration and setting various terminal attributes.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5pty-data
 Architecture: all
@@ -49,7 +48,6 @@ Description: Pty abstraction.
  .
  This package contains the translations
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5pty5-dbg
 Priority: extra
