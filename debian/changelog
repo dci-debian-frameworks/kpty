@@ -1,9 +1,9 @@
-kpty (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+kpty (5.2.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:46:30 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:49:07 +0200
 
 kpty (5.1.0-0ubuntu1) utopic; urgency=medium
 
