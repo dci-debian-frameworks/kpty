@@ -3,14 +3,13 @@ Upstream-Name: kpty
 Source: https://projects.kde.org/projects/frameworks/kpty
 
 Files: *
-       debian/*
-Copyright: © 2002-2003, 2007-2008 Oswald Buddenhagen <ossi@kde.org>
-           © 2010 Author Adriaan de Groot <groot@kde.org>
-           © 2002 Waldo Bastian <bastian@kde.org>
-           © 1999 Lars Doelle <lars.doelle@on-line.de>
-           ©  Steven Schultz <sms@to.gd-es.com>
-           © 1998 Zack Weinberg <zack@rabi.phys.columbia.edu>
-           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Copyright: 2010, KDE e.V <kde-ev-board@kde.org>
+           2002-2008, Oswald Buddenhagen <ossi@kde.org>
+           2002, Waldo Bastian <bastian@kde.org>
+License: LGPL-2+
+
+Files: src/kgrantpty.c
+Copyright: 1999, Lars Doelle <lars.doelle@on-line.de>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -25,21 +24,13 @@ License: GPL-2+
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: autotests/* excluding:
-       autotests/CMakeLists.txt
-       src/* excluding:
-       src/CMakeLists.txt
-       src/ConfigureChecks.cmake
-       src/config-pty.h.cmake
-       src/kgrantpty.c
-Copyright: 2003,2007 Oswald Buddenhagen <ossi@kde.org>
-           2002 Waldo Bastian <bastian@kde.org>
-           2002-2003,2007-2008 Oswald Buddenhagen <ossi@kde.org>
-           2010 KDE e.V. <kde-ev-board@kde.org>
-           Adriaan de Groot <groot@kde.org>
+Files: debian/*
+Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -56,5 +47,5 @@ License: LGPL-2+
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
