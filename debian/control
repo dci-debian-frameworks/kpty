@@ -11,6 +11,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.2)
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kpty
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kpty.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpty.git
