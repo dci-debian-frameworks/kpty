@@ -32,8 +32,9 @@ Description: development files for kpty
 
 Package: libkf5pty5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5pty-data (= ${source:Version})
+Depends: libkf5pty-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
  TTY pair, assigning the controlling TTY, utmp
