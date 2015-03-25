@@ -1,6 +1,7 @@
 kpty (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Mar 2015 14:13:22 +0100
 
