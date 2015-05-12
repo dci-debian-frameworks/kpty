@@ -9,7 +9,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5coreaddons-dev (>= 5.10.0~),
                libkf5i18n-dev (>= 5.10.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kpty
