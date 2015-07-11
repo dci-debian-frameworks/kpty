@@ -1,8 +1,22 @@
 kpty (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:21:52 -0700
+
+kpty (5.11.0-2) unstable; urgency=medium
+
+  * Rebuild with libutempter.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 22:30:53 +0200
+
+kpty (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Jun 2015 12:59:39 +0200
 
 kpty (5.10.0-0ubuntu1) wily; urgency=medium
 
