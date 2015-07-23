@@ -2,6 +2,7 @@ kpty (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Fix merge.
+  * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:21:52 -0700
 
