@@ -51,16 +51,3 @@ Description: Pty abstraction.
  registration and setting various terminal attributes.
  .
  This package contains the translations
-
-Package: libkf5pty5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5pty5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kpty
- Provides primitives for opening & closing a pseudo
- TTY pair, assigning the controlling TTY, utmp
- registration and setting various terminal attributes.
- .
- Contains debug symbols for kpty.
