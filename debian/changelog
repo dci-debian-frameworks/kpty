@@ -1,3 +1,21 @@
+kpty (5.20.0-1~2.gbpe4b5f2) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e4b5f22ac1f5120c930e0e47fdc0037b833e0e90 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:41:27 +0200
+
 kpty (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
