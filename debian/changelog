@@ -1,6 +1,6 @@
-kpty (5.20.0-1~2.gbpe4b5f2) UNRELEASED; urgency=medium
+kpty (5.20.0-1~3.gbpde6fa6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e4b5f22ac1f5120c930e0e47fdc0037b833e0e90 **
+  ** SNAPSHOT build @de6fa61c721b29c96b4edf980157cfec953eb1bd **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kpty (5.20.0-1~2.gbpe4b5f2) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:41:27 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:41:16 +0200
 
 kpty (5.19.0-1) experimental; urgency=medium
 
