@@ -1,6 +1,6 @@
-kpty (5.21.0-1~1.gbpbdf873) UNRELEASED; urgency=medium
+kpty (5.21.0-1~2.gbp15a4fb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bdf8732a333a994ae0816fa3fcc371a0ac956192 **
+  ** SNAPSHOT build @15a4fbea999de2e4f12fb3b33ee289fc576e51c5 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,7 @@ kpty (5.21.0-1~1.gbpbdf873) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * UNRELEASED
@@ -22,7 +23,7 @@ kpty (5.21.0-1~1.gbpbdf873) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:41:22 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:39 +0200
 
 kpty (5.19.0-1) experimental; urgency=medium
 
