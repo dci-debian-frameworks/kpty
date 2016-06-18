@@ -1,10 +1,9 @@
-kpty (5.23.0-1~1.gbpfb7b75) UNRELEASED; urgency=medium
+kpty (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @fb7b75bae9a9bb6523d4a0e8f2ec99df22cc9b3d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 23:41:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 19:02:29 +0200
 
 kpty (5.22.0-1) unstable; urgency=medium
 
