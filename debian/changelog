@@ -1,17 +1,12 @@
-kpty (5.25.0-1~2.gbpba3e12) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ba3e12a0406ec0052471942828db31c074191a5f **
+kpty (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @f36aeb30c206f5566f0097ff1fd3448107eed315 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:41:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 09:06:47 +0200
 
 kpty (5.23.0-1) unstable; urgency=medium
 
