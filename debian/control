@@ -5,13 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5coreaddons-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
                libutempter-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+               qtbase5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kpty
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kpty.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kpty.git
@@ -19,8 +19,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kpty.git
 Package: libkf5pty-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev (>= 5.19.0~),
-         libkf5i18n-dev (>= 5.19.0~),
+Depends: libkf5coreaddons-dev (>= 5.25.0~),
+         libkf5i18n-dev (>= 5.25.0~),
          libkf5pty5 (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for kpty
@@ -29,6 +29,7 @@ Description: development files for kpty
  registration and setting various terminal attributes.
  .
  Contains development files for kpty.
+Breaks: libkf5su-dev (<< 5.25)
 
 Package: libkf5pty5
 Architecture: any
@@ -40,6 +41,7 @@ Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
  TTY pair, assigning the controlling TTY, utmp
  registration and setting various terminal attributes.
+Breaks: libkf5su5 (<< 5.25)
 
 Package: libkf5pty-data
 Architecture: all
