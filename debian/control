@@ -29,7 +29,7 @@ Description: development files for kpty
  registration and setting various terminal attributes.
  .
  Contains development files for kpty.
-Breaks: libkf5su-dev (<< 5.26)
+Breaks: libkf5su-dev (<< 5.27)
 
 Package: libkf5pty5
 Architecture: any
@@ -41,7 +41,7 @@ Description: Pty abstraction.
  Provides primitives for opening & closing a pseudo
  TTY pair, assigning the controlling TTY, utmp
  registration and setting various terminal attributes.
-Breaks: libkf5su5 (<< 5.26)
+Breaks: libkf5su5 (<< 5.27)
 
 Package: libkf5pty-data
 Architecture: all
