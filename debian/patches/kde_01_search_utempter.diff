@@ -1,0 +1,13 @@
+diff --git a/cmake/FindUTEMPTER.cmake b/cmake/FindUTEMPTER.cmake
+index 2fc1cd8..4921e58 100644
+--- a/cmake/FindUTEMPTER.cmake
++++ b/cmake/FindUTEMPTER.cmake
+@@ -37,6 +37,8 @@
+ find_file (UTEMPTER_EXECUTABLE utempter PATHS
+     ${KDE_INSTALL_FULL_LIBEXECDIR}/utempter
+     ${KDE_INSTALL_FULL_LIBDIR}/utempter
++    ${CMAKE_PREFIX_PATH}/libexec/utempter
++    ${CMAKE_PREFIX_PATH}/lib/utempter
+     /usr/libexec/utempter
+ )
+ 
