@@ -1,3 +1,11 @@
+kpty (5.28.0-1~1.gbp7b310d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7b310d166f29c63eb4a4dbffe68901cea6eb3551 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:41:54 +0100
+
 kpty (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
