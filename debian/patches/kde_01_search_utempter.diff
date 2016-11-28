@@ -1,0 +1,25 @@
+commit 053ee8add12db44e6eaa68fd02e34ef1b97ba528
+Author: Jonathan Riddell <jr@jriddell.org>
+Date:   Mon Nov 28 14:50:17 2016 +0000
+
+    REVIEW:129560
+    More utempter path searching, this one to keep Debian stable happy
+
+diff --git a/cmake/FindUTEMPTER.cmake b/cmake/FindUTEMPTER.cmake
+index c5a1e41..c6352f5 100644
+--- a/cmake/FindUTEMPTER.cmake
++++ b/cmake/FindUTEMPTER.cmake
+@@ -37,10 +37,11 @@
+ find_file (UTEMPTER_EXECUTABLE utempter PATHS
+     ${KDE_INSTALL_FULL_LIBEXECDIR}/utempter
+     ${KDE_INSTALL_FULL_LIBDIR}/utempter
+-    ${CMAKE_PREFIX_PATH}/libexec/utempter
+-    ${CMAKE_PREFIX_PATH}/lib/utempter
++    ${CMAKE_INSTALL_PREFIX}/libexec/utempter
++    ${CMAKE_INSTALL_PREFIX}/lib/utempter
+     /usr/libexec/utempter
+     /usr/lib/${CMAKE_LIBRARY_ARCHITECTURE}/utempter
++    /usr/lib/utempter
+ )
+ 
+ # On FreeBSD for example we have to use ulog-helper
