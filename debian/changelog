@@ -1,3 +1,11 @@
+kpty (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Add new upstream patches to find utempter:
+    Add-library-path-so-utempter-binary-is-found-in-Ubuntu-16.patch and
+    REVIEW-129560.patch
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 06 Apr 2017 13:56:12 +0200
+
 kpty (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
