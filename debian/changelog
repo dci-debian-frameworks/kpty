@@ -1,3 +1,15 @@
+kpty (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:13:58 +0000
+
+kpty (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:37:47 +0000
+
 kpty (5.34.0-0neon) xenial; urgency=medium
 
   * New release
@@ -33,6 +45,14 @@ kpty (5.29.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:09:03 +0000
+
+kpty (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patches to find utempter:
+    Add-library-path-so-utempter-binary-is-found-in-Ubuntu-16.patch and
+    REVIEW-129560.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Apr 2017 14:03:55 +0200
 
 kpty (5.28.0-1) unstable; urgency=medium
 
