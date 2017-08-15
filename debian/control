@@ -57,6 +57,7 @@ Description: Pty abstraction (documentation)
  registration and setting various terminal attributes.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5pty5
 Architecture: any
